@@ -7,7 +7,7 @@ import java.util.Date;
 
 @Entity
 @Table(name = "${tableName}")
-public class ${classType}{
+public class ${classType} {
 
 <#list fields as field>
     <#if field.isId >
